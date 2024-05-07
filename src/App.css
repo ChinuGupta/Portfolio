@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+
+/* body {
+  background-image: url("./light_theme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  max-width: 100wh;
+  /* background-color: rgb(0, 0, 0); */
+
+.light {
+  background-image: url("./light_theme.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  max-width: 100wh;
+  color: black;
+  transition: all 1s ease-in-out;
+}
+
+.light .main-block,
+.Skill,
+.Projects-main-Container,
+.contact-div {
+  transition: all 1s ease-in-out;
+  color: black;
+}
+
+.light,
+.card-body,
+.card-img-top {
+  transition: all 1s ease-in-out;
+  color: black;
+}
+.light .navbar .navbar-nav .nav-link {
+  transition: all 1s ease-in-out;
+  background-color: #ffffff;
+  color: black;
+}
+.light .button {
+  transition: all 1s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+.dark {
+  background-image: url("./dark_theme.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  max-width: 100wh;
+  color: rgb(255, 255, 255);
+  transition: all 1s ease-in-out;
+}
+.dark .main-block,
+.Skill,
+.Projects-main-Container,
+.main-contact,
+.contact-div {
+  transition: all 1s ease-in-out;
+  color: white;
+}
+
+.dark,
+.card-body,
+.card-img-top {
+  transition: all 1s ease-in-out;
+  color: white;
+}
+
+.dark button {
+  background-color: rgb(255, 255, 255);
+  color: #111111;
+}
+
+.dark .navbar .navbar-nav .nav-link {
+  transition: all 1s ease-in-out;
+  background-color: #111111;
+  color: white;
+}
+.dark .button {
+  transition: all 1s ease-in-out;
+  color: white;
+}
